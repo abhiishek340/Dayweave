@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LifeSync Pro</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_health">Health</string>
+    <string name="nav_insights">Insights</string>
+    
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="notifications">Notifications</string>
+    <string name="privacy_security">Privacy &amp; Security</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    
+    <!-- Tasks -->
+    <string name="tasks_title">Tasks</string>
+    <string name="add_task">Add Task</string>
+    <string name="task_title">Title</string>
+    <string name="task_description">Description</string>
+    <string name="due_date">Due Date</string>
+    <string name="no_tasks">No tasks yet. Add one!</string>
+    
+    <!-- Health -->
+    <string name="health_title">Health &amp; Fitness</string>
+    <string name="daily_summary">Daily Summary</string>
+    <string name="steps">Steps</string>
+    <string name="calories">Calories</string>
+    <string name="active_minutes">Active Minutes</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="sleep">Sleep</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="bmi">BMI</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    
+    <!-- Insights -->
+    <string name="insights_title">AI Insights</string>
+    <string name="productivity_insights">Productivity Insights</string>
+    <string name="health_recommendations">Health Recommendations</string>
+    <string name="habit_analysis">Habit Analysis</string>
+    <string name="ai_summary">AI Assistant Summary</string>
+    
+    <!-- Error Messages -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">No internet connection. Please check your network.</string>
+    <string name="error_location">Unable to access location. Please check permissions.</string>
+</resources>
