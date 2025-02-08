@@ -1,123 +1,148 @@
-# LifeSync Pro
+# Dayweave
 
-LifeSync Pro is an all-encompassing Android personal assistant app designed to seamlessly integrate into users' daily lives. It serves as a digital best friend, offering comprehensive life management tools and personalized assistance.
+![Dayweave Banner](https://png.pngtree.com/templates/20180830/natural-lifestyle-logo-letter-e-template-png_29980.jpg)
 
-## Features
+## 🚀 Overview
 
-- **Intelligent Activity Tracking**
-  - Step counting
-  - Activity recognition
-  - Workout tracking
-  - Sleep monitoring
+**Dayweave** is an all-encompassing Android personal assistant app designed to seamlessly integrate into users' daily lives. Think of it as your digital best friend, offering intelligent life management tools and AI-driven personalized assistance.
 
-- **Health & Fitness Management**
-  - Health metrics tracking
-  - Workout plans
-  - Integration with Google Fit
-  - Personalized recommendations
+---
 
-- **Task Management**
-  - Smart task organization
-  - Priority-based scheduling
-  - Progress tracking
-  - Reminders and notifications
+## ✨ Features
 
-- **AI-Driven Insights**
-  - Personalized recommendations
-  - Habit analysis
-  - Productivity patterns
-  - Health insights
+### 🔹 **Intelligent Activity Tracking**
+- ✅ Step counting
+- ✅ Activity recognition
+- ✅ Workout tracking
+- ✅ Sleep monitoring
 
-## Technical Specifications
+### 🏋️ **Health & Fitness Management**
+- 📊 Health metrics tracking
+- 🏆 Custom workout plans
+- 🔗 Integration with Google Fit
+- 🎯 Personalized fitness recommendations
 
-### Requirements
+### 📅 **Task Management**
+- 📌 Smart task organization
+- 🔄 Priority-based scheduling
+- 📈 Progress tracking
+- ⏰ Reminders and notifications
 
-- Android 11 (API level 30) or higher
-- Minimum 4GB RAM
-- 100MB free storage space
-- Camera and various sensors (accelerometer, gyroscope, GPS)
+### 🧠 **AI-Driven Insights**
+- 🎯 Personalized recommendations
+- 📊 Habit analysis
+- 📅 Productivity patterns
+- ❤️ Health insights
 
-### Tech Stack
+---
 
-- **Frontend**
-  - Kotlin
-  - Jetpack Compose
-  - Material Design 3
+## 🔧 Technical Specifications
 
-- **Backend**
-  - Node.js with Express.js
-  - MongoDB
-  - Redis for caching
+### 📌 **Requirements**
+- 📱 Android 11 (API level 30) or higher
+- 💾 Minimum 4GB RAM
+- 🗄️ 100MB free storage space
+- 📡 Camera and various sensors (accelerometer, gyroscope, GPS)
 
-- **Cloud Services**
-  - Google Cloud Platform (GCP)
-  - Firebase Analytics & Crashlytics
-  - Cloud Storage
-  - TensorFlow on GCP
+### 🏗️ **Tech Stack**
+#### **Frontend**
+- 🌐 Kotlin
+- 🎨 Jetpack Compose
+- 🖌️ Material Design 3
 
-### Architecture
+#### **Backend**
+- 🚀 Node.js with Express.js
+- 💾 MongoDB
+- ⚡ Redis for caching
 
-The app follows Clean Architecture principles with three main layers:
-- Presentation Layer (UI)
-- Domain Layer (Business Logic)
-- Data Layer (Data Sources)
+#### **Cloud Services**
+- ☁️ Google Cloud Platform (GCP)
+- 📊 Firebase Analytics & Crashlytics
+- 🗄️ Cloud Storage
+- 🤖 TensorFlow on GCP
 
-## Setup & Installation
+### 🏛️ **Architecture**
+The app follows **Clean Architecture** principles with three main layers:
+- 🎨 **Presentation Layer** (UI & UX)
+- ⚙️ **Domain Layer** (Business Logic)
+- 🗄️ **Data Layer** (Data Sources & API handling)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/lifesync-pro.git
-   ```
+---
 
-2. Open the project in Android Studio
+## 🛠️ Setup & Installation
 
-3. Configure your Google Services:
-   - Add your `google-services.json` file to the app directory
-   - Set up required API keys in `local.properties`
+### 📥 Clone the Repository
+```bash
+git clone https://github.com/yourusername/dayweave.git
+```
 
-4. Build and run the project:
-   ```bash
-   ./gradlew build
-   ```
+### 🏗️ Open the Project in Android Studio
 
-## Configuration
+### 🔑 Configure Your Google Services
+- Add your `google-services.json` file to the `app` directory
+- Set up required API keys in `local.properties`
 
-### API Keys
+### 🚀 Build and Run the Project
+```bash
+./gradlew build
+```
+
+---
+
+## ⚙️ Configuration
+
+### 🔑 API Keys
 Create a `local.properties` file in the project root and add your API keys:
 ```properties
 GOOGLE_MAPS_API_KEY=your_maps_api_key
 WEATHER_API_KEY=your_weather_api_key
 ```
 
-### Permissions
+### 🔒 Required Permissions
 The app requires the following permissions:
-- Internet access
-- Location services
-- Activity recognition
-- Camera
-- Storage
-- Body sensors
+- 🌍 Internet access
+- 📍 Location services
+- 🏃 Activity recognition
+- 📸 Camera
+- 🗂️ Storage
+- ❤️ Body sensors
 
-## Contributing
+---
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 🤝 Contributing
 
-## License
+We welcome contributions! Follow these steps:
+1. **Fork** the repository
+2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your changes** (`git commit -m 'Add AmazingFeature'`)
+4. **Push to the branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request** 🚀
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
 
-## Acknowledgments
+## 📜 License
 
-- Material Design for the UI components
-- Google Fit for health data integration
-- OpenWeatherMap for weather data
-- Various open-source libraries and their contributors
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
-## Contact
+---
 
-Email - [@yourusername](abhiishek340@gmail.com)
+## 🙌 Acknowledgments
+
+Special thanks to:
+- 🎨 [Material Design](https://material.io/) for UI components
+- 💪 [Google Fit](https://developers.google.com/fit/) for health data integration
+- 🌦️ [OpenWeatherMap](https://openweathermap.org/) for weather data
+- 👏 Various open-source libraries and their contributors
+
+---
+
+## 📬 Contact
+
+📧 Email: [abhiishek340@gmail.com](mailto:abhiishek340@gmail.com)
+
+💻 GitHub: [abhiishek340](https://github.com/abhiishek340)
+
+📱 LinkedIn: [Abhishek Yadav](https://www.linkedin.com/in/abhishek340/)
+
+---
 
