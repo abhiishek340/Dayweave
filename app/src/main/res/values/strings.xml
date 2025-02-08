@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LifeSync Pro</string>
+    <string name="app_name">Dayweave</string>
     
     <!-- Navigation -->
     <string name="nav_home">Home</string>
@@ -36,15 +36,19 @@
     <!-- Health -->
     <string name="health_title">Health &amp; Fitness</string>
     <string name="daily_summary">Daily Summary</string>
+    <string name="daily_health_summary">Daily Health Summary</string>
     <string name="steps">Steps</string>
     <string name="calories">Calories</string>
     <string name="active_minutes">Active Minutes</string>
     <string name="heart_rate">Heart Rate</string>
     <string name="sleep">Sleep</string>
+    <string name="sleep_tracker">Sleep Tracker</string>
     <string name="weight">Weight</string>
     <string name="height">Height</string>
     <string name="bmi">BMI</string>
     <string name="blood_pressure">Blood Pressure</string>
+    <string name="workout_tracker">Workout Tracker</string>
+    <string name="nutrition">Nutrition</string>
     
     <!-- Insights -->
     <string name="insights_title">AI Insights</string>
@@ -52,6 +56,7 @@
     <string name="health_recommendations">Health Recommendations</string>
     <string name="habit_analysis">Habit Analysis</string>
     <string name="ai_summary">AI Assistant Summary</string>
+    <string name="ai_assistant_summary">AI Assistant Summary</string>
     
     <!-- Error Messages -->
     <string name="error_generic">Something went wrong. Please try again.</string>

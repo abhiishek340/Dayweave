@@ -119,6 +119,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
+Email - [@yourusername](abhiishek340@gmail.com)
 
-Project Link: [https://github.com/yourusername/lifesync-pro](https://github.com/yourusername/lifesync-pro) 

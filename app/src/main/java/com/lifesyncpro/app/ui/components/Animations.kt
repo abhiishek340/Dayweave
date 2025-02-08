@@ -10,32 +10,28 @@ fun slideInAnimation(
     initialOffsetX: Int = 0,
     initialOffsetY: Int = 300
 ): EnterTransition = slideInVertically(
-    initialOffsetY = { initialOffsetY },
-    animationSpec = tween(
-        durationMillis = 300,
-        easing = FastOutSlowInEasing
-    )
-) + fadeIn(animationSpec = tween(300))
+    initialOffsetY = { initialOffsetY }
+) + fadeIn(
+    animationSpec = tween(300)
+)
 
 fun slideOutAnimation(
     targetOffsetX: Int = 0,
     targetOffsetY: Int = 300
 ): ExitTransition = slideOutVertically(
-    targetOffsetY = { targetOffsetY },
-    animationSpec = tween(
-        durationMillis = 300,
-        easing = FastOutSlowInEasing
-    )
-) + fadeOut(animationSpec = tween(300))
+    targetOffsetY = { targetOffsetY }
+) + fadeOut(
+    animationSpec = tween(300)
+)
 
 // Pulse animation
-val pulseAnimation = infiniteRepeatable(
+val pulseAnimation = infiniteRepeatable<Float>(
     animation = tween(1000, easing = FastOutSlowInEasing),
     repeatMode = RepeatMode.Reverse
 )
 
 // Scale animation
-val scaleAnimation = keyframes {
+val scaleAnimation = keyframes<Float> {
     durationMillis = 400
     0.95f at 100
     1.05f at 200
@@ -50,7 +46,7 @@ val springSpec = spring<Float>(
 )
 
 // Shimmer effect animation
-val shimmerEffect = infiniteRepeatable(
+val shimmerEffect = infiniteRepeatable<Float>(
     animation = tween(
         durationMillis = 1500,
         easing = LinearEasing,
